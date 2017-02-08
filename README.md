@@ -4,7 +4,7 @@
 ![](https://github.com/yongyuandouneng/YNViewControllerInteractiveTransition/blob/master/GifImage/YNNavigationControllerScaleGif2.gif)
 
 喜欢就start鼓励一下，您在使用过程中有任何问题、出现任何(BUG、Crash)，请加QQ群538133294或联系我的扣扣1003580893.
----
+
 ```
 #import <UIKit/UIKit.h>
 #import "YNViewControllerAnimation.h"
