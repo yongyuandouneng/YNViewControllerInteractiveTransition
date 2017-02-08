@@ -1,0 +1,2 @@
+# YNViewControllerInteractiveTransition
+模仿淘宝、腾讯新闻、网易等手势返回效果的控制器转场交互动画。
