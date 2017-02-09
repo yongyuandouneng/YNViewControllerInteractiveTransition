@@ -75,6 +75,7 @@ typedef NS_ENUM(NSInteger, PanStateDirectionType) {
         UIScreenEdgePanGestureRecognizer *gestureRecognizer = [[UIScreenEdgePanGestureRecognizer alloc] initWithTarget:self action:@selector(handlePan:)];
         [gestureRecognizer setDelegate:self];
         [gestureRecognizer setEdges:UIRectEdgeLeft];
+        [gestureRecognizer setEdges:UIRectEdgeRight];
         [viewController.view addGestureRecognizer:gestureRecognizer];
     
         _panGestureRecognizer = gestureRecognizer;
