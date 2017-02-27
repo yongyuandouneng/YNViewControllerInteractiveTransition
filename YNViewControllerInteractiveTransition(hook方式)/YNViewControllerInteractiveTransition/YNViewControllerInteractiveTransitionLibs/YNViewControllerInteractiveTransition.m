@@ -67,7 +67,7 @@ typedef NS_ENUM(NSInteger, PanStateDirectionType) {
 - (void)addPanGestureRecognizerWithViewController:(UIViewController *)viewController gestureType:(GestureType)type{
     
     if (_panGestureRecognizer) {
-        [viewController.view removeGestureRecognizer:_panGestureRecognizer];
+        [viewController.view removeGestureRecognizer:_panGestureRecognizer]; 
     }
     
     if (type == GestureTypeUIScreenEdgePanGestureRecognizer) {
