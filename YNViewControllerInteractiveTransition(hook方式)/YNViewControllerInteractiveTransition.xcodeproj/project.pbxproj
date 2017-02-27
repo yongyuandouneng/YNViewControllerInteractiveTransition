@@ -22,7 +22,6 @@
 		2EA46FFE1E4B1AE7005A852D /* YNTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EA46FFC1E4B1AE7005A852D /* YNTwoViewController.xib */; };
 		2EA470021E4B1AFB005A852D /* YNThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EA470001E4B1AFB005A852D /* YNThreeViewController.m */; };
 		2EA470031E4B1AFB005A852D /* YNThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2EA470011E4B1AFB005A852D /* YNThreeViewController.xib */; };
-		2EB7E0061E64180E00D543D6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2EB7E0051E64180E00D543D6 /* Info.plist */; };
 		2EB7E0081E64191900D543D6 /* Info2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2EB7E0071E64191900D543D6 /* Info2.plist */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +50,6 @@
 		2EA46FFF1E4B1AFB005A852D /* YNThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNThreeViewController.h; sourceTree = "<group>"; };
 		2EA470001E4B1AFB005A852D /* YNThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNThreeViewController.m; sourceTree = "<group>"; };
 		2EA470011E4B1AFB005A852D /* YNThreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YNThreeViewController.xib; sourceTree = "<group>"; };
-		2EB7E0051E64180E00D543D6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EB7E0071E64191900D543D6 /* Info2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info2.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,7 +90,6 @@
 				2EA46FD81E4B1868005A852D /* ViewController.h */,
 				2EA46FD91E4B1868005A852D /* ViewController.m */,
 				2EA46FDB1E4B1868005A852D /* Main.storyboard */,
-				2EB7E0051E64180E00D543D6 /* Info.plist */,
 				2EB7E0071E64191900D543D6 /* Info2.plist */,
 				2EA46FDE1E4B1868005A852D /* Assets.xcassets */,
 				2EA46FE01E4B1868005A852D /* LaunchScreen.storyboard */,
@@ -204,7 +201,6 @@
 				2EA46FDF1E4B1868005A852D /* Assets.xcassets in Resources */,
 				2EA46FDD1E4B1868005A852D /* Main.storyboard in Resources */,
 				2EA46FFE1E4B1AE7005A852D /* YNTwoViewController.xib in Resources */,
-				2EB7E0061E64180E00D543D6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,7 +338,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZQ98B22FV7;
-				INFOPLIST_FILE = YNViewControllerInteractiveTransition/Info.plist;
+				INFOPLIST_FILE = YNViewControllerInteractiveTransition/Info2.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yn.YNViewControllerInteractiveTransition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,7 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZQ98B22FV7;
-				INFOPLIST_FILE = YNViewControllerInteractiveTransition/Info.plist;
+				INFOPLIST_FILE = YNViewControllerInteractiveTransition/Info2.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yn.YNViewControllerInteractiveTransition;
 				PRODUCT_NAME = "$(TARGET_NAME)";

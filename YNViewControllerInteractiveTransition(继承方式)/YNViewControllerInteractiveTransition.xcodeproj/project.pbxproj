@@ -34,7 +34,7 @@
 		2EA46FDC1E4B1868005A852D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EA46FDE1E4B1868005A852D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EA46FE11E4B1868005A852D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2EA46FE31E4B1868005A852D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EA46FE31E4B1868005A852D /* Info2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info2.plist; sourceTree = "<group>"; };
 		2EA46FEA1E4B18D0005A852D /* YNViewControllerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNViewControllerAnimation.h; sourceTree = "<group>"; };
 		2EA46FEB1E4B18D0005A852D /* YNViewControllerAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YNViewControllerAnimation.m; sourceTree = "<group>"; };
 		2EA46FEC1E4B18D0005A852D /* YNViewControllerInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YNViewControllerInteractiveTransition.h; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 				2EA46FDB1E4B1868005A852D /* Main.storyboard */,
 				2EA46FDE1E4B1868005A852D /* Assets.xcassets */,
 				2EA46FE01E4B1868005A852D /* LaunchScreen.storyboard */,
-				2EA46FE31E4B1868005A852D /* Info.plist */,
+				2EA46FE31E4B1868005A852D /* Info2.plist */,
 				2EA46FD21E4B1868005A852D /* Supporting Files */,
 			);
 			path = YNViewControllerInteractiveTransition;
@@ -336,7 +336,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZQ98B22FV7;
-				INFOPLIST_FILE = YNViewControllerInteractiveTransition/Info.plist;
+				INFOPLIST_FILE = YNViewControllerInteractiveTransition/Info2.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yn.YNViewControllerInteractiveTransition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,7 +348,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZQ98B22FV7;
-				INFOPLIST_FILE = YNViewControllerInteractiveTransition/Info.plist;
+				INFOPLIST_FILE = YNViewControllerInteractiveTransition/Info2.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yn.YNViewControllerInteractiveTransition;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -374,6 +374,7 @@
 				2EA46FE81E4B1868005A852D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
